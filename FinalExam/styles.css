@@ -1,0 +1,195 @@
+/* 5/10/26 Bobby M */
+* {box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+header {font-size: 180%;}
+body, h1 {font-family: Arial, sans-serif;
+	background-color: #b5a79a;
+	text-align: center;
+	font-size: 120%;	
+}
+h5 {font-size: 70%;}
+.wrapper {max-width: 80%;
+	margin: auto;
+	padding: 1%;	
+}
+nav ul {list-style: none;
+	padding: 10px;
+	background-color: #3d3b3a;
+}
+nav ul li {display: inline;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 2%;
+}
+nav a {color: white;
+	text-decoration: none;
+	letter-spacing: 1.4px;
+}
+.outlink {color: #112A46;
+	text-decoration: none;
+	letter-spacing: 1.4px;
+}
+.inlink {color: #bbbdbf;
+	text-decoration: none;
+	letter-spacing: 1.2px;
+}
+nav a:hover {text-decoration: underline;}
+nav a:visited {color: lightgray;}
+.cat {display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 3%;
+	background-color: #ebeff2;
+}
+.blank {background-color: #1c1b1a;}
+.cred {background-color: #f4f4f4;
+	font-family: Helvetica Neue, Roboto, Montserrat, Arial;
+	padding-left: 7%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+/*images*/
+.Home-Pusheen {margin-right: 3%;
+	max-width: 40%;
+	max-height: 40%;
+}
+.dreamy {padding: 2%;
+	max-height: 10%;
+	max-width: 10%;
+}
+.aboutpusheen {margin-right: 3%;
+	border: 3px solid #b5a79a;
+	max-height: 120%;
+	max-width: 120%;
+	display: block;
+	position: sticky;
+	top: 0;
+}
+.credpusheen {margin-right: 3%;
+	max-width: 30%;
+	max-height: 30%;
+}
+/* all about text */
+.meetpusheen {font-size: 155%;
+	text-align: left;
+	margin-bottom: 2%;
+	max-width: 100%;
+}
+.cat-text {max-width: 70%;
+	font-size: 180%;
+	text-align: left;
+}
+.cat-textsub{max-width: 100%;
+	font-size: 90%;
+	text-align: left;
+}
+.cat-textsub2{max-width: 95%;
+	font-size: 75%;
+	text-align: left;
+}
+.catlist {list-style: none;
+	padding: 0px;
+	font-size: 80%;
+	display: inline;
+	margin-top: 4%;
+	margin-left: 2%;
+	gap: 10%;
+}
+div ul {list-style: none;
+}
+/* for the cat images seating */
+.gallery {display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+	gap: 2%;
+	padding: 1%;
+	background-color: #4d2a0c;
+}
+/* for the cat images roundness and such */
+.gallerys {background-color: white;
+	padding: 2%;
+	border-radius: 5%;	
+	max-width: 85%;
+}
+/* cat images */
+.footer {padding: 7px;
+	background-color: #1c1b1a;
+	color: white;
+}
+/*Your Pusheen avdenture page */
+.catform {display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 3%;
+	background-color: #ebeff2;
+}
+.catformquiz {margin-right: 2%;
+	justify-content: center}
+.adventure {display: flex;
+	font-size: 300%;
+	align-items: top;
+	justify-content: center;
+	padding: 1%;
+	background-color: #ebeff2;
+}
+.endform {width: 40%;
+	font-size: 124%;}
+/*media*/
+@media (max-width: 768px) {
+	.cat {flex-direction: column;
+		text-align: center;
+	}
+	.cat-text {max-width: 80%;
+		text-align: center;
+	}
+	nav ul {list-style: none;
+		padding: 10px;
+		background-color: #3d3b3a;
+}
+	nav ul li {display: inline;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		margin-left: 2%;
+	}
+	.aboutpusheen {margin-right: 3%;
+	border: 3px solid #b5a79a;
+	height: 70%;
+	width: 70%;
+	display: block;
+	position: static;
+	top: 0;
+	}
+	.Home-Pusheen {	height: 80%;
+		width: 80%;
+	}
+	.cat-textsub {font-size: 70%;}
+	.cat-textsub2 {font-size: 54%;}
+	.meetpusheen {font-size: 80%;}
+	.adventure {font-size: 80%;}
+	.catform {align-items: left;
+		box-sizing: border-box;
+		text-align: left;
+		justify-content: left;
+	}
+	.question {font-size: 65%;
+		display: flex}
+	.dreamy {max-height: 20%;
+		max-width: 20%;
+	}
+	.endform {width: 23%;
+	font-size: 70%;
+	margin: 2%;
+	}
+	.txtbox {width: 70%;}
+}
+@media (max-width: 480px) {
+	.wrapper {padding: 2%;}
+	.gallerys {grid-template-columns: 1fr;}
+	nav ul {padding: 5px}
+	nav ul li {margin-bottom: 5px;
+		margin-top: 5px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
